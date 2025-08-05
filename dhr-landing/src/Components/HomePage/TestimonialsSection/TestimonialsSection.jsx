@@ -10,42 +10,35 @@ const TestimonialsSection = () => {
       id: 1,
       company: 'Microsoft',
       companyLogo: '🏢',
-      reviewer: 'Ahmet Yılmaz',
+      reviewer: 'Lorem İpsum',
       position: 'CTO',
       rating: 5,
-      comment: 'DHR ile çalışmak gerçekten harika bir deneyim oldu. İş süreçlerimizi tamamen dijitalleştirdiler ve verimliliğimiz %40 arttı. Profesyonel ekip ve kaliteli hizmet!',
+      comment: 'lorem ipsum lorem ipsum !',
       color: '#0078d4'
     },
     {
       id: 2,
       company: 'Google',
       companyLogo: '🔍',
-      reviewer: 'Elif Kaya',
+      reviewer: 'Lorem İpsum',
       position: 'Product Manager',
       rating: 5,
-      comment: 'Müthiş bir ekip! Karmaşık iş gereksinimlerimizi anlayıp, özel çözümler geliştirdiler. Proje zamanında ve bütçe içinde teslim edildi. Kesinlikle tavsiye ederim.',
+      comment: 'lorem ipsum lorem ipsum !',
       color: '#4285f4'
     },
     {
       id: 3,
       company: 'Amazon',
       companyLogo: '📦',
-      reviewer: 'Mehmet Özkan',
+      reviewer: 'Lorem İpsum',
       position: 'Operations Director',
       rating: 5,
-      comment: 'DHR sayesinde lojistik süreçlerimiz çok daha verimli hale geldi. Gerçek zamanlı raporlama sistemi işimizi kolaylaştırdı. İnovasyoncu yaklaşımları ile fark yaratıyorlar.',
+      comment: 'lorem ipsum lorem ipsum !',
       color: '#ff9900'
     },
-    {
-      id: 4,
-      company: 'Apple',
-      companyLogo: '🍎',
-      reviewer: 'Zeynep Demir',
-      position: 'Technical Lead',
-      rating: 5,
-      comment: 'Güvenlik ve kullanıcı deneyimi konusunda mükemmel bir hizmet aldık. Mobil uygulamalarımızın performansı DHR çözümleri ile önemli ölçüde iyileşti.',
-      color: '#007aff'
-    }
+    
+      
+    
   ];
 
   useEffect(() => {
@@ -82,8 +75,8 @@ const TestimonialsSection = () => {
         <div className={`testimonials-header ${isVisible ? 'visible' : ''}`}>
           <h2 className="testimonials-title">Müşteri Yorumları</h2>
           <p className="testimonials-subtitle">
-            Müşterilerimizin memnuniyeti bizim en büyük başarımızdır. 
-            Onların deneyimlerini dinleyin.
+             Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit sed do eiusmod
           </p>
         </div>
 

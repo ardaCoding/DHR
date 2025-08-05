@@ -24,9 +24,9 @@ const HeroSection = () => {
           </h1>
           
           <p className="hero-description">
-            Modern teknoloji ile iş süreçlerinizi optimize edin. 
-            Hızlı, güvenilir ve kullanıcı dostu çözümlerle 
-            işletmenizi bir adım öne taşıyın.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             Morbi pellentesque congue leo, id dictum purus. Ut consectetur tempus dapibus. Integer eget consequat dolor
+             eu fermentum dui. Nam venenatis.
           </p>
           
           <button 

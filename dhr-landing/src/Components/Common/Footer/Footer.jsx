@@ -74,11 +74,11 @@ const Footer = () => {
             <div className="contact-info">
               <div className="contact-item">
                 <span className="contact-icon">📧</span>
-                <span>info@dhr.com</span>
+                <span>contact@d1-tech.com</span>
               </div>
               <div className="contact-item">
                 <span className="contact-icon">📞</span>
-                <span>+90 212 XXX XX XX</span>
+                <span>: 0 216 310 23 23</span>
               </div>
               <div className="contact-item">
                 <span className="contact-icon">📍</span>
@@ -93,15 +93,10 @@ const Footer = () => {
           <div className="footer-bottom-content">
             <p>&copy; {currentYear} DHR. Tüm hakları saklıdır.</p>
             <div className="social-links">
-              <a href="https://linkedin.com" className="social-link" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/company/d1-tech/posts/?feedView=all" className="social-link" aria-label="LinkedIn">
                 💼
               </a>
-              <a href="https://linkedin.com" className="social-link" aria-label="Twitter">
-                🐦
-              </a>
-              <a href="https://linkedin.com" className="social-link" aria-label="GitHub">
-                👨‍💻
-              </a>
+              
             </div>
           </div>
         </div>

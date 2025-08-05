@@ -9,11 +9,7 @@ const ReferencesSection = () => {
     { name: 'Microsoft', logo: '🏢' },
     { name: 'Google', logo: '🔍' },
     { name: 'Amazon', logo: '📦' },
-    { name: 'Apple', logo: '🍎' },
-    { name: 'Meta', logo: '👥' },
-    { name: 'Netflix', logo: '🎬' },
-    { name: 'Tesla', logo: '🚗' },
-    { name: 'Samsung', logo: '📱' }
+   
   ];
 
   useEffect(() => {
@@ -39,9 +35,7 @@ const ReferencesSection = () => {
         <div className={`references-header ${isVisible ? 'visible' : ''}`}>
           <h2 className="references-title">Referanslarımız</h2>
           <p className="references-subtitle">
-            Sektörün önde gelen şirketleriyle çalışarak onların dijital dönüşüm 
-            yolculuklarında partner olduk. Güvenilir çözümlerimizle büyük ve küçük 
-            ölçekli işletmelerin başarılarına katkı sağlıyoruz.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
           </p>
         </div>
 
